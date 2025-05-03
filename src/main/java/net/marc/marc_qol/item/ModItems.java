@@ -14,6 +14,8 @@ public class ModItems {
 public static final RegistryObject<Item> BOUQUET = ITEMS.register("flower_bouquet",
         () -> new Item(new Item.Properties()));
 
+public static final RegistryObject<Item> BLUEBERRIES = ITEMS.register("blueberries",
+        () -> new Item(new Item.Properties().food(ModFoodProperties.BLUEBERRIES)));
 
 
 public static void  register(IEventBus eventBus) {

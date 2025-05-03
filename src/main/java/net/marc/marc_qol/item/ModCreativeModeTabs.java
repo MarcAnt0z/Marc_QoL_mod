@@ -18,7 +18,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.marcqol_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.BOUQUET.get());
-
+                        output.accept(ModItems.BLUEBERRIES.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
