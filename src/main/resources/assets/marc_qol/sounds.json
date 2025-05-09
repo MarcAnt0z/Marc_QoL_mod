@@ -1,0 +1,10 @@
+{
+  "paperplane_song": {
+    "sounds": [
+      {
+        "name": "marc_qol:paperplane_song",
+        "stream": true
+      }
+    ]
+  }
+}

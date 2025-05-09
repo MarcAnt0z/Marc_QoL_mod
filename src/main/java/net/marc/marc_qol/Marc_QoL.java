@@ -3,6 +3,7 @@ package net.marc.marc_qol;
 import com.mojang.logging.LogUtils;
 import net.marc.marc_qol.item.ModCreativeModeTabs;
 import net.marc.marc_qol.item.ModItems;
+import net.marc.marc_qol.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,6 +29,8 @@ public class Marc_QoL {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
