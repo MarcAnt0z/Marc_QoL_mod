@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:oxeye_daisy"
+    },
+
+    "B": {
+      "item": "minecraft:orange_tulip"
+    },
+    "C": {
+      "item": "minecraft:allium"
+    },
+    "D": {
+      "item": "minecraft:poppy"
+    },
+    "E": {
+      "item": "minecraft:paper"
+    },
+    "F": {
+      "item": "minecraft:cornflower"
+    }
+  },
+  "pattern": [
+    "ABC",
+    "DEF"
+  ],
+  "result": {
+    "item": "marc_qol:flower_bouquet"
+  },
+  "show_notification": true
+}
